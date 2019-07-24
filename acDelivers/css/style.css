@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'Imago Pro';
+  src: url('../fonts/imagopro-medium-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: medium;
+  text-rendering: optimizeLegibility;
+}
+
+.imago{
+  font-family: 'Imago Pro';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#top-strip {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7px;
+}
+
+#header-image {
+  display: block;
+  width: 400px;
+  margin: 55px auto -5px auto;
+}
+
+input[type="text"], input[type="email"] {
+  font-family: inherit;
+  width: 100%;
+  height: 100%;
+  color: #3a3a3a;
+  background-color: #d7e1ed;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  padding: 0 23px 0 23px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;      /* Opera/IE 8+ */
+}
+
+input::placeholder {
+  color: #9a9b9c;
+  font-style: italic;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  color: #9a9b9c;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  padding: 0 23px 0 23px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */ 
+  -moz-appearance: none;
+	-webkit-appearance: none;
+  appearance: none;
+  background: url(../images/arrowDrop.svg);
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  background-color: #d7e1ed;
+}
+
+.drop-placeholder {
+  color: #9a9b9c;
+  font-style: italic;
+  font-weight: bold; 
+}
+
+.row-head {
+  color: #3a3a3a;
+  font-size: 26.5px;
+  margin: 0.5em 0 10px 0;
+}
+
+#acd-form {
+  width: 100%;
+}
+
+#form-body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.third-field {
+  width: 32%;
+  height: 57px;
+  margin: 1.3em 0 1.3em 0;
+}
+
+.half-field {
+  width: 49%;
+  height: 57px;
+}
+
+.full-field {
+  width: 100%;
+  height: 57px;
+  margin: 1.3em 0 1.3em 0;
+}
+
+.top-field {
+  margin: 0 0 0 0; 
+}
+
+
+.cbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin: 20px 0 12px 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ctext {
+  font-size: 18px;
+  line-height: 1.7em;
+  margin: 0 0 0 8px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Hide the browser's default checkbox */
+.cbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+  background-color: #d7e1ed;
+}
+
+/* On mouse-over, add a grey background color */
+.cbox:hover input ~ .checkmark {
+  background-color: #9a9b9c;
+}
+
+/* When the checkbox is checked, add a blue background */
+.cbox input:checked ~ .checkmark {
+  background-color: #e28700;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.cbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.cbox .checkmark:after {
+  left: 13px;
+  top: 9px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sub-button {
+  font-family: inherit;
+  width: 284px;
+  height: 68.3px;
+  font-size: 41px;
+  font-weight: bold;
+  margin: 40px auto 40px auto;
+  color: #ffffff;
+  background-color: #e28700;
+  border: 5px #ffffff solid;
+  border-radius: 8px;
+  filter: drop-shadow(0 0 0.75rem #00000050);
+  cursor: pointer;
+}
+
+#disclaimer {
+  font-size: 10px;
+}
+
+
+/* SUBMISSION PAGE */
+.sub-body {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+#check {
+  width: 500px;
+  height: 500px;
+  margin: 80px auto 100px auto;
+  display: block;
+}
