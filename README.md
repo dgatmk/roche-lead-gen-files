@@ -16,4 +16,4 @@ The apps were styled to look best when saved to the home screen from Safari. Thi
 
 ## The Hand Off
 
-Currently, I believe the plan is to export the populated database as a csv and hand it off directly to Roche to upload to their lead generation platform. We will need to double check with Roche and see if that plan workd for them and if csv is a good format for their platform(usually is).
+Currently, I believe the plan is to export the populated database as a csv and hand it off directly to Roche to upload to their lead generation platform. We will need to double check with Roche and see if that plan worked for them and if csv is a good format for their platform (usually is).
