@@ -51,7 +51,7 @@
         <div class="half-field"><input type="email" name="email" placeholder="Email" required></div>
         <div class="half-field"><input class="phone_us" type="text" name="phone" placeholder="Phone: (xxx) xxx-xxxx"></div>
         <label class="cbox"><span class="ctext">Yes, please send me email notifications.</span>
-          <input type="checkbox" name="emailoptin">
+          <input type="checkbox" name="email_optin">
           <span class="checkmark"></span>
         </label>
       </div>
