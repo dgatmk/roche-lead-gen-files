@@ -65,7 +65,7 @@
           <input type="checkbox" name="acConnect">
           <span class="rboxdot"></span>
         </label> 
-        <label class="rbox"><span class="rtext">Diasend</span>
+        <label class="rbox"><span class="rtext">Diasend/Glooko</span>
           <input type="checkbox" name="diasend">
           <span class="rboxdot"></span>
         </label> 
